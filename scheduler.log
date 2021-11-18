@@ -1,0 +1,42 @@
+
+   ErrorException 
+
+  Object of class Illuminate\View\View could not be converted to int
+
+  at C:\Users\Sloma\Desktop\imgw\imgw-app\vendor\laravel\framework\src\Illuminate\Console\Command.php:136
+    132▕     protected function execute(InputInterface $input, OutputInterface $output)
+    133▕     {
+    134▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    135▕ 
+  ➜ 136▕         return (int) $this->laravel->call([$this, $method]);
+    137▕     }
+    138▕ 
+    139▕     /**
+    140▕      * Resolve the console command instance for the given command.
+
+  1   C:\Users\Sloma\Desktop\imgw\imgw-app\vendor\laravel\framework\src\Illuminate\Console\Command.php:136
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleError()
+
+  2   C:\Users\Sloma\Desktop\imgw\imgw-app\vendor\symfony\console\Command\Command.php:299
+      Illuminate\Console\Command::execute()
+
+   ErrorException 
+
+  Object of class Illuminate\View\View could not be converted to int
+
+  at C:\Users\Sloma\Desktop\imgw\imgw-app\vendor\laravel\framework\src\Illuminate\Console\Command.php:136
+    132▕     protected function execute(InputInterface $input, OutputInterface $output)
+    133▕     {
+    134▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    135▕ 
+  ➜ 136▕         return (int) $this->laravel->call([$this, $method]);
+    137▕     }
+    138▕ 
+    139▕     /**
+    140▕      * Resolve the console command instance for the given command.
+
+  1   C:\Users\Sloma\Desktop\imgw\imgw-app\vendor\laravel\framework\src\Illuminate\Console\Command.php:136
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleError()
+
+  2   C:\Users\Sloma\Desktop\imgw\imgw-app\vendor\symfony\console\Command\Command.php:299
+      Illuminate\Console\Command::execute()
